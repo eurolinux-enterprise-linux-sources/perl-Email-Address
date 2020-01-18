@@ -1,6 +1,6 @@
 Name:           perl-Email-Address
 Version:        1.898
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        RFC 2822 Address Parsing and Creation
 
 Group:          Development/Libraries
@@ -55,6 +55,9 @@ make test
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.898-3
+- Mass rebuild 2013-12-27
+
 * Wed Jun 26 2013 Jitka Plesnikova <jplesnik@redhat.com> - 1.898-2
 - Specify all dependencies
 - Drop %%defattr, remove %%clean section
